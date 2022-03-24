@@ -1,0 +1,10 @@
+p{
+    background: darkkhaki;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    padding: 3px;
+    margin: 20px auto;
+    border: 1px solid black;
+    
+}

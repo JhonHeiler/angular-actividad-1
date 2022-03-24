@@ -1,0 +1,38 @@
+<form>
+  <div class="form-user">
+      <div class="row">
+        <div class="col-2">
+          <input [(ngModel)]="identificacion" type="number" name="identificacion" class="form-control" placeholder="identificaion" aria-label="identificaion">
+        </div>
+        <div class="col-2">
+          <input [(ngModel)]="nombre" type="text" name="nombre" class="form-control" placeholder="nombre" aria-label="nombre">
+        </div>
+      </div>
+      
+      <div class="row">
+        <div class="col-2">
+          <input  [(ngModel)]="apellido" type="text" name="apellido" class="form-control" placeholder="apellido" aria-label="apellido">
+        </div>
+        <div class="col-2">
+          <input [(ngModel)]="edad" type="number" name="pass" class="form-control" placeholder="edad" aria-label="edad">
+      </div>
+      </div>
+      <div class="button">
+      <button type="button" class="btn btn-success"(click)="saveEvento()">Enviar</button>
+      <button type="button" class="btn btn-warning"(click)="getEvento()">Consultar</button>
+      </div>
+    </div>
+  </form>
+  
+
+
+
+
+    
+   <!-- <h1>hola mi hermaano {{cliente}}</h1> -->
+
+
+   <!-- <p>Coponente hijo</p>
+   <button (click)="ejcutarEvento()">Quiero enviar al padre</button> -->
+
+   

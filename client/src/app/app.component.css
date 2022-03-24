@@ -1,0 +1,20 @@
+
+
+header{
+    background: darkgreen;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    padding: 3px;
+    margin: 20px auto;
+    border: 1px solid black;
+}
+.container{
+    background: aqua;
+    margin: 15px auto;
+    border: 1px solid black;
+    width: 90%;
+    height: 90%;
+}
+
+

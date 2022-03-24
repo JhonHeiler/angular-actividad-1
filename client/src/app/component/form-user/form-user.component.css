@@ -1,0 +1,21 @@
+.form-user{
+    background: navy;
+    margin: 10px auto;
+    width: 70%;
+    padding: 15px;
+
+}
+.form-control{
+     margin: 20px 300px;
+    
+}
+.btn-success{
+    margin-left: 250px;
+    
+    
+}
+.btn-warning{
+    margin-left: 250px;
+    
+   
+}
